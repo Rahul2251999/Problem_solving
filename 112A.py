@@ -2,7 +2,7 @@ n=input()
 m=input()
 n,m=n.lower(),m.lower()
 d=0
-for i in range(len(n)):
+for i in range(len(n)):  #nbdshski
     if n[i]<m[i]:
         print("-1")
         d=1
